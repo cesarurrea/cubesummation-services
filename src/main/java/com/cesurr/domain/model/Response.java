@@ -3,6 +3,13 @@ package com.cesurr.domain.model;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/** Bean to manage the response for Cube summation process
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class Response {
 
 	private List<String> errorList = new ArrayList<String>();

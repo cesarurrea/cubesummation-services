@@ -2,6 +2,12 @@ package com.cesurr.domain.service;
 
 import com.cesurr.domain.model.Cube;
 
+/** Update Operations
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class Update implements IGenericOperation {
 
 	private final OperationType operationType = OperationType.UPDATE;

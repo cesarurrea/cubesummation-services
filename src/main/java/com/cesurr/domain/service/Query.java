@@ -2,6 +2,12 @@ package com.cesurr.domain.service;
 
 import com.cesurr.domain.model.Cube;
 
+/** Query Operation
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class Query implements IGenericOperation {
 
 	private final OperationType operationType = OperationType.QUERY;

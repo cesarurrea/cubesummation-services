@@ -5,6 +5,12 @@ import java.util.List;
 
 import com.cesurr.domain.model.Response;
 
+/** To manage the input command operations. 
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class CubeOperations {
 	private Integer numberOfTestCases;
 	private List<TestCase> testCaseList = new ArrayList<TestCase>();

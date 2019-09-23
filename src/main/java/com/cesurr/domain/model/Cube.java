@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/** Cube bean model to manage a new matrix to be processed. 
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class Cube {
 	private List<List<List<Integer>>> matrix;
 	private Integer size;
@@ -13,7 +19,11 @@ public class Cube {
 	public Cube() {
 		super();
 	}
-
+	
+	/** Create a new 3D matrix
+	 * @param size matrix-size to be created
+	 * @return none
+	*/
 	public void create(Integer size) {
 		this.size = size;
 

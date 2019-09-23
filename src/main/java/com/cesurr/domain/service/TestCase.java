@@ -5,6 +5,12 @@ import java.util.List;
 
 import com.cesurr.domain.model.Cube;
 
+/** To manage a testCase
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 public class TestCase {
 	private Cube cube;
 	private Integer numOfOperations;

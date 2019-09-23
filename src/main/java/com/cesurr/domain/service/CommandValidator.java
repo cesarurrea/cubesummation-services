@@ -2,6 +2,12 @@ package com.cesurr.domain.service;
 
 import org.springframework.stereotype.Component;
 
+/** To validate formats and application contraints 
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 @Component
 public final class CommandValidator {
 

@@ -12,6 +12,12 @@ import java.util.List;
 import com.cesurr.domain.model.Cube;
 import com.cesurr.domain.model.Response;
 
+/** To manage the service workflow to proccess a new input test-cases suite
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 @Service
 public class CubeService {
 	

@@ -20,6 +20,12 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
 
+/** Basic Configuration to manage bussines-rules
+ * @author Cesar Urrea
+ * @author cesarurrea@gmail.com
+ * @version 1.0
+ * @since 1.0
+*/
 @Configuration
 public class DroolsAutoConfiguration {
 	private static final String RULES_PATH = "rules/";
